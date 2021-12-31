@@ -31,7 +31,7 @@
 
             <div class="form-group ">
               <button type="button"
-                class="  btn  shadow col-12 btn-outline-primary btn-light" @click="$router.push('/login')"  > I have account already! </button>
+                class="btn  shadow col-12 btn-light  border text-primary border-primary" @click="$router.push('/login')"  > I have account already! </button>
             </div>
 
         </form>

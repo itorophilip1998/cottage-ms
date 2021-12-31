@@ -1,5 +1,8 @@
 export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
+  ssr: false,
+
+  // Global page headers: https://go.nuxtjs.dev/config-headadd .
+  
   router: {
     scrollBehavior: async function (to, from, savedPosition) {
       if (savedPosition) {
@@ -83,7 +86,7 @@ export default {
       fileName: 'logo.jpeg',
     },
     manifest: {
-      name: 'PatientMS-2021',
+      name: 'Cottage Hopital Ukana',
       short_name: 'PatientMS',
       lang: 'en',
       display: 'standalone',

@@ -1,8 +1,8 @@
 <template>
-  <div class="p-2 pt-5 bg-light">
+  <div class="p-2 pt-5 bg-light vh-100">
 
 
-       <form class="py-3">
+       <form class="py-3 pt-4">
             <div class="form-titile pb-3">
               <h5 class="m-0">Welcome Back!</h5>
             <small class="text-muted">Sign in to Cottage Hospital</small>
@@ -28,7 +28,7 @@
 
             <div class="form-group ">
               <button type="button"
-                class="  btn  shadow col-12 btn-outline-primary btn-light" @click="$router.push('/signup')"  > Create new Account </button>
+                class="  btn  shadow col-12 btn-light  border text-primary border-primary" @click="$router.push('/signup')"  > Create new Account </button>
             </div>
 
         </form>
