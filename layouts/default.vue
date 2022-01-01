@@ -8,14 +8,13 @@
         <img src="~assets/images/avater.png" class="logo" alt="">
     </div>
     <div class="profile-info text-center py-3">
-      <button class="btn btn-light mb-2   pt-1 ml-1 shadow-sm btn-sm " @click="logout();" >logout <i class="fa fa-sign-out" aria-hidden="true"></i></button>
       <h5 class="text-dark mb-0 pb-0">Itoro Emmanuel Philip</h5>
         <small class="text-white mt-0 pt-0">Itorophilip1998@gmail.com</small>
 
     </div>
     <div class="list border-top" >
         <ul class="p-1 pt-4">
-          <li v-for="list in list1"   @click="navigate(list.url);"   :class="`${($route.path==list.url)? 'li lia':''}`"  :key="list.id">
+          <li v-for="(list,index) in list1"   @click="navigate(list.url);"   :class="`${($route.path==list.url)? 'li lia':''}`"  :key="index">
             <i     :class="`${ ($route.path==list.url)? 'lia':''}  ${ list.icon}`"  ></i>
             <span  >{{list.name}} </span>
           </li>
@@ -93,8 +92,11 @@ data() {
            name:'My Drugs Calender',
            url:'/calender',
            icon:'fas fa-calendar-check  ',
-
-
+         },
+         {
+           name:'Logout',
+           url:'/login',
+           icon:'fa fa-sign-out ',
          },
 
       ]
@@ -175,15 +177,15 @@ li>i{
 
 }
 li>i{
-  font-size:26px !important;
+  font-size:27px !important;
 }
 li{
   list-style:none !important ;
   padding:6px;
   color:var(--white);
-  font-size:23px !important;
+  font-size:16px !important;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+ margin-bottom: 5px;
 }
  .lia{
   list-style:none !important ;

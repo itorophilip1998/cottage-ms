@@ -15,7 +15,9 @@
 .i{
   cursor:pointer
 }
-
+.rounded-x{
+  border-radius:5px;
+}
 .brandlogo{
   width:42px;
   height:42px;

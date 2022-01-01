@@ -1,0 +1,18 @@
+{
+          "drugs":[
+            {
+             "name":"Paracitamol",
+           "price":"200",
+           "type":"card",
+           "image":"/_nuxt/assets/images/drugs.png",
+           "description":"For headeach"
+            },
+            {
+             "name":"Septr",
+           "price":"200",
+           "type":"card",
+           "image":"/_nuxt/assets/images/drugs.png",
+           "description":"For headeach"
+            }
+          ]
+}
