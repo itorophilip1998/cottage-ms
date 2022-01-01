@@ -1,18 +1,18 @@
 {
           "drugs":[
             {
-             "name":"Paracitamol",
-           "price":"200",
-           "type":"card",
-           "image":"/_nuxt/assets/images/drugs.png",
-           "description":"For headeach"
+             "name":"Paracetamol",
+           "price":"500",
+           "type":"Tablet",
+           "image":"~/assets/images/paracitamol.jpg",
+           "description":"Paracetamol, also known as acetaminophen, is a medication used to treat fever and mild to moderate pain. At a standard dose, paracetamol only slightly decreases body temperature; it is inferior to ibuprofen in that respect, and the benefits of its use for fever are unclear."
             },
             {
-             "name":"Septr",
-           "price":"200",
-           "type":"card",
-           "image":"/_nuxt/assets/images/drugs.png",
-           "description":"For headeach"
+            "name":"Septrin",
+           "price":"500",
+           "type":"Tablet",
+           "image":"/_nuxt/assets/images/septrin.jpg",
+           "description":"Septrin is a brand name for the antibiotic medicine co-trimoxazole. This antibiotic is mainly used to prevent a small number of serious infections in people with an underactive immune system, for example people with HIV or AIDS and people having treatment for cancer."
             }
           ]
 }

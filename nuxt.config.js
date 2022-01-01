@@ -2,7 +2,7 @@ export default {
   ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-headadd .
-  
+
   router: {
     scrollBehavior: async function (to, from, savedPosition) {
       if (savedPosition) {
@@ -93,8 +93,8 @@ export default {
       start_url: '/',
       useWebmanifestExtension: false,
       description: 'Cottage Hopital Ukana',
-      background_color: "#ffffff",
-      theme_color: "#ffffff",
+      background_color: "#0d6efd",
+      theme_color: "#0d6efd",
       splash_pages: "/"
 
     },
