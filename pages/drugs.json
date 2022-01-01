@@ -4,15 +4,58 @@
              "name":"Paracetamol",
            "price":"500",
            "type":"Tablet",
-           "image":"~/assets/images/paracitamol.jpg",
+           "url":"https://paystack.com/buy/paracetamol-msibyw",
            "description":"Paracetamol, also known as acetaminophen, is a medication used to treat fever and mild to moderate pain. At a standard dose, paracetamol only slightly decreases body temperature; it is inferior to ibuprofen in that respect, and the benefits of its use for fever are unclear."
             },
             {
             "name":"Septrin",
-           "price":"500",
+           "price":"1100",
            "type":"Tablet",
-           "image":"/_nuxt/assets/images/septrin.jpg",
+           "url":"https://paystack.com/buy/septrin-kfpoqb",
            "description":"Septrin is a brand name for the antibiotic medicine co-trimoxazole. This antibiotic is mainly used to prevent a small number of serious infections in people with an underactive immune system, for example people with HIV or AIDS and people having treatment for cancer."
+            },
+            {
+            "name":"Ibucap",
+           "price":"300",
+           "type":"Tablet",
+           "url":"https://paystack.com/buy/ibucap-zxyiie",
+           "description":"Ibucap Capsule is a pain-relieving medicine. It is used to reduce pain and inflammation in conditions like rheumatoid arthritis, ankylosing spondylitis, and osteoarthritis. It may also be used to relieve muscle pain, back pain, toothache, or pain in the ear and throat."
+            },
+            {
+            "name":"Ampiclox",
+           "price":"100",
+           "type":"Card",
+           "url":"https://paystack.com/buy/ampiclox-igsyjd",
+           "description":"Ampiclox (Beecham) is a mixture of ampicillin and cloxacillin for infections during the first weeks of life. It is available in conveniently small doses as oral drops or as an injection."
+            },
+            {
+            "name":"Ampicillin",
+           "price":"2100",
+           "type":"Syrub",
+           "url":"https://paystack.com/buy/ampicillin-tdmmfs",
+           "description":"Ampicillin is a penicillin antibiotic that is used to treat or prevent many different types of infections such as bladder infections, pneumonia, gonorrhea, meningitis, or infections of the stomach or intestines. Ampicillin may also be used for purposes not listed in this medication guide."
+            },
+            {
+            "name":"Antiretroviral",
+           "price":"3500",
+           "type":"Card",
+           "url":"https://paystack.com/buy/antiretroviral-pdfdgg",
+           "description":"Antiretroviral treatment (also known as antiretroviral therapy or ART) are the drugs that treat HIV. Taking ART means that people living with HIV can live long and healthy lives. ART is not a cure for HIV, but it keeps HIV under control, so it doesn't affect your health and you can carry on with life as usual."
+            },
+            {
+            "name":"Chloroquine",
+           "price":"700",
+           "type":"Card",
+           "url":"https://paystack.com/buy/chloroquine-zjzwep",
+           "description":"Chloroquine is a medication primarily used to prevent and treat malaria in areas where malaria remains sensitive to its effects. Certain types of malaria, resistant strains, and complicated cases typically require different or additional medication."
+            },
+            {
+            "name":"Feroglobin(Blood Tonic)",
+           "price":"4050",
+           "type":"Syrub",
+           "url":"https://paystack.com/buy/feroglobinblood-tonic-forkev",
+           "description":"Improves the conditions of low levels of Iron, Folic acid and Cyanocobalamin in body such as in anaemia, nutritional malabsorption and blood loss."
             }
+
           ]
 }
