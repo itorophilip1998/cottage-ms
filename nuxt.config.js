@@ -2,7 +2,6 @@ export default {
   ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-headadd .
-
   router: {
     scrollBehavior: async function (to, from, savedPosition) {
       if (savedPosition) {
@@ -102,4 +101,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  loadingIndicator: {
+    name: 'three-bounce',
+    color: 'white',
+    background: '#0d6efd'
+  },
+  loading: '~/components/LoadingBar.vue'
+
 }
