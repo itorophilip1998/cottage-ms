@@ -9,8 +9,11 @@
                  <h4 class="card-title text-dark ">Meet <span class="font-weight-bold "> {{ filterDoc[0].name}}</span><i class="fa fa-tag text-danger" aria-hidden="true"></i></h4>
                 <div class="freedays"> 
                   <button class="btn ">
-                        Free Days <span v-for="item in filterDoc[0].freeDays" :key="item" class="badge badge-success mr-2">{{ item .slice(0,3)}}</span>
+                        Days Available<i class="fa fa-long-arrow-right" aria-hidden="true"></i> 
                   </button>
+                  <div class="row text-center">
+                  <div v-for="item in filterDoc[0].freeDays" :key="item" :class="`d-inline-block rounded-circle text-muted  border font-weight-bold shadow date ${(item.on)?'newDate':''}`" >{{ item.days }}</div>
+                   </div>
                 </div>
                     <form class="py-3 pt-1"> 
  
@@ -75,6 +78,16 @@ export default {
 
 
 <style >
+.date{
+  width: 40px !important;
+  height: 40px !important;
+      line-height: 2.4;
+  margin:auto ;
 
+}
+.newDate{
+  background: var(--success);
+  color: var(--white) !important;
+}
 </style>
 

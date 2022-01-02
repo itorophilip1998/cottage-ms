@@ -27,9 +27,13 @@
 <!-- header -->
 
         <nav class="navbar handler p-2 fixed-top navbar-expand-sm  shadow navbar-light bg-white">
-           <nuxt-link to="/" class=" navbar-brand ">
+           <nuxt-link v-if="$route.path=='/'" to="/" class=" navbar-brand ">
           <img src="~assets/images/logo.jpeg" class="brandlogo" alt="">
-            <h5 class="m-0 ml-2 text-dark">PatientMS</h5></nuxt-link>
+            <h5 class="m-0 ml-2 text-dark">Patient-RS</h5></nuxt-link>
+           <nuxt-link v-else to="-1" class=" navbar-brand ">
+             <i class="fa fa-arrow-left text-muted" aria-hidden="true"></i>
+            <h5 class="m-0 ml-2 text-dark text-capitalize pl-2"> {{ $route.path.slice(1) }}</h5>
+         </nuxt-link>
 
           <button class="navbar-toggler d-lg-none" @click="toggler()"  v-if="!sidebar" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation">
@@ -88,11 +92,7 @@ data() {
 
 
          },
-         {
-           name:'My Drugs Calender',
-           url:'/calender',
-           icon:'fas fa-calendar-check  ',
-         },
+        
          {
            name:'Logout',
            url:'/login',
@@ -120,6 +120,10 @@ methods: {
 
 <style >
 
+.fa-arrow-left:before {
+font-size: 18px !important;
+}
+ 
 
  #sidebar{
   animation-name: myanimation;
@@ -185,7 +189,7 @@ li{
   color:var(--white);
   font-size:16px !important;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- margin-bottom: 5px;
+ margin-bottom: 6px;
 }
  .lia{
   list-style:none !important ;
