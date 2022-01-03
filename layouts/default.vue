@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="d-md-none ">
     <!-- sidebar -->
  <div  v-if="sidebar">
       <div id="sidebar" class=" bg-primary text-light pt-3">
@@ -27,13 +27,13 @@
 <!-- header -->
 
         <nav class="navbar handler p-2 fixed-top navbar-expand-sm  shadow navbar-light bg-white">
-           <nuxt-link v-if="$route.path=='/'" to="/" class=" navbar-brand ">
+           <a v-if="$route.path=='/'" href="/" class=" navbar-brand ">
           <img src="~assets/images/logo.jpeg" class="brandlogo" alt="">
-            <h5 class="m-0 ml-2 text-dark">Patient-RS</h5></nuxt-link>
-           <nuxt-link v-else to="-1" class=" navbar-brand ">
+            <h5 class="m-0 ml-2 text-dark">Patient-RS</h5></a>
+           <a v-else @click="$router.back()" class=" navbar-brand py-2">
              <i class="fa fa-arrow-left text-muted" aria-hidden="true"></i>
             <h5 class="m-0 ml-2 text-dark text-capitalize pl-2"> {{ $route.path.slice(1) }}</h5>
-         </nuxt-link>
+         </a>
 
           <button class="navbar-toggler d-lg-none" @click="toggler()"  v-if="!sidebar" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation">
@@ -119,7 +119,9 @@ methods: {
 </script>
 
 <style >
-
+a,a:hover,a:focus{
+  text-decoration: none !important;
+}
 .fa-arrow-left:before {
 font-size: 18px !important;
 }

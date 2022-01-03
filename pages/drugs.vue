@@ -2,7 +2,7 @@
 <template>
   <div>
    <div class="drugsBox mt-5 pt-5 p-2 bg-light">
-        <h5 class=" p-2  font-weight-bold text-dark">Drugs</h5>
+        <!-- <h5 class=" p-2  font-weight-bold text-dark">Drugs</h5> -->
 
          <div class="drugs row m-0 mt-3" v-for="(drug,index) in drugs.drugs" :key="index">
             <div class="card text-center shadow bg-white pt-3">

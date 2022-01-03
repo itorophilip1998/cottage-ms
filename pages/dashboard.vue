@@ -3,7 +3,7 @@
         <div class="dashboard pt-5 mt-5  ">
           <!-- header -->
           <header>
-          <h5 class=" p-2  font-weight-bold text-dark">Dashboard</h5>
+          <!-- <h5 class=" p-2  font-weight-bold text-dark">Dashboard</h5> -->
               <ul class="scrolBox m-0">
                 <li v-for="(list,index) in list1" :key="index" :class="`${list.bg} text-center pt-3 shadow`" @click="routeFunc(list.url)">
                      <i :class="list.icon"></i>
@@ -84,15 +84,7 @@ export default {
            bg:"bg-primary text-white"
 
 
-         },
-         {
-           name:'Calender',
-           url:'/calender',
-           icon:'fas fa-calendar-check  ',
-           bg:"bg-secondary text-white"
-
-
-         },
+         } 
 
       ],
       profile: {

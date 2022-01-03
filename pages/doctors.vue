@@ -3,7 +3,7 @@
       <div class="doctors pt-5 mt-5  bg-light">
               <!-- header -->
           <header class="p-2">
-          <h5 class=" p-2  font-weight-bold text-dark">Doctors</h5>
+          <!-- <h5 class=" p-2  font-weight-bold text-dark">Doctors</h5> -->
              <div class="card mt-3 shadow" v-for="(doctor, index) in doctors.doctors" :key="index">
                <img class="card-img-top" :src="`${doctor.img}`" alt="">  
                <div class="card-body text-justify">
