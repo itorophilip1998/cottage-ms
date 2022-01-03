@@ -17,7 +17,7 @@
 
           <!-- profile -->
           <div class="profile p-2 bg-light pt-4">
-            <h6><b>Hello</b> Itoro Emmanuel Philip! <a href="#" class="fa fa-pencil btn btn-sm btn-outline-secondary float-right"> Edit</a></h6>
+            <h6><b>Hello</b> Itoro Emmanuel Philip! <nuxt-link to="/profile" class="fa fa-pencil btn btn-sm btn-outline-secondary float-right"> Edit</nuxt-link></h6>
     <hr>
                   <!-- sickness -->
            <div class="sickness row m-0 my-3">
