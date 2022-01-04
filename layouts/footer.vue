@@ -12,11 +12,12 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.coinpayu.com/lp1/Itorophilip">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.coinpayu.com/lp4/Itorophilip">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
+            </ul> 
+            <!-- <a href="https://www.coinpayu.com/?r=Itorophilip"><img title="Join coinpayu to earn!" alt="coinpayu" src="https://www.coinpayu.com/static/advertiser_banner/468X60.gif"></a> -->
           </div>
 
 

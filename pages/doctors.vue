@@ -20,6 +20,10 @@
 
           </header>
 
+                 <a class="btn btn-primary" href="https://www.kelinahospital.com/make-an-appointment">Meet External Doctors <i class="fa fa-handshake-o" aria-hidden="true"></i></a> 
+
+          
+
       </div>
   </div>
 </template>

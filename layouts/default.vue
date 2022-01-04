@@ -30,7 +30,7 @@
            <a v-if="$route.path=='/'" href="/" class=" navbar-brand ">
           <img src="~assets/images/logo.jpeg" class="brandlogo" alt="">
             <h5 class="m-0 ml-2 text-dark">Patient-RS</h5></a>
-           <a v-else @click="$router.back()" class=" navbar-brand py-2">
+           <a v-else @click="$router.back()" class=" navbar-brand py-3">
              <i class="fa fa-arrow-left text-muted" aria-hidden="true"></i>
             <h5 class="m-0 ml-2 text-dark text-capitalize pl-2"> {{ $route.path.slice(1) }}</h5>
          </a>
@@ -42,10 +42,8 @@
         </nav>
 
 
-  <Nuxt class="mt-5"/>
-  <Footer v-if="$route.path=='/'"/>
-   <!-- <div id="preloader"></div> -->
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <Nuxt class="mt-2"/>
+  <Footer v-if="$route.path=='/'"/>  
   </div>
 </template>
 

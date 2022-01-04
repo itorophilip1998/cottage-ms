@@ -19,6 +19,8 @@
               </div>
             </div>
          </div>
+                <a href="https://healthplusnigeria.com/collections" class="btn btn-primary w-100 shadow mt-3 " >Load More  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+
    </div>
 
   </div>

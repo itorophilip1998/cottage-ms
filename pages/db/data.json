@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Grace Greendwood",
+      "email":"test1@gmail.com",
+      "password":"password",
+       "profile": {
+        "dob":"4th may 2021",
+        "gender":"female",
+        "marital_status":"married",
+        "address":"uyo, idoro Road",
+        "phone":"09024195493",
+        "onTreatment":false,
+        "date_started":"2nd Jan 2021",
+        "sickness":[
+          "Typhod","Fever","Maleria","Headache"
+        ] 
+
+        }
+
+    }
+  ]
+}

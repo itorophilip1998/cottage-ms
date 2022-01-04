@@ -51,7 +51,9 @@ export default {
 
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    // '~/plugins/firebase.js'
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -60,6 +62,7 @@ export default {
   buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
+
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
@@ -67,7 +70,24 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-  ],
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: "AIzaSyB50DrWKv_85TMq3bm9LA4-xyh_kRtD2f0",
+          authDomain: "cottage-patient.firebaseapp.com",
+          projectId: "cottage-patient",
+          storageBucket: "cottage-patient.appspot.com",
+          messagingSenderId: "683246272521",
+          appId: "1:683246272521:web:5313fc712a9fc3093b78d8",
+          measurementId: "G-7T63ZXY9FE"
+        },
+        services: {
+          auth: true // Just as example. Can be any other service.
+        }
+      }
+    ]
+  ], 
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
