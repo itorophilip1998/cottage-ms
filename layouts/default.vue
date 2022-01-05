@@ -1,5 +1,5 @@
 <template>
-  <div class="d-md-none ">
+  <div >
     <!-- sidebar -->
  <div  v-if="sidebar">
       <div id="sidebar" class=" bg-primary text-light pt-3">
@@ -43,7 +43,7 @@
 
 
   <Nuxt class="mt-2"/>
-  <Footer v-if="$route.path=='/'"/>  
+  <Footer v-if="$route.path=='/'"/>
   </div>
 </template>
 
@@ -90,7 +90,7 @@ data() {
 
 
          },
-        
+
          {
            name:'Logout',
            url:'/login',
@@ -123,7 +123,7 @@ a,a:hover,a:focus{
 .fa-arrow-left:before {
 font-size: 18px !important;
 }
- 
+
 
  #sidebar{
   animation-name: myanimation;
