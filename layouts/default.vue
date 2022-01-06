@@ -23,9 +23,7 @@
   </div>
   <div class="overlay" @click="toggler()"></div>
  </div>
-
 <!-- header -->
-
         <nav class="navbar handler p-2 fixed-top navbar-expand-sm  shadow navbar-light bg-white">
            <a v-if="$route.path=='/'" href="/" class=" navbar-brand ">
           <img src="~assets/images/logo.jpeg" class="brandlogo" alt="">
