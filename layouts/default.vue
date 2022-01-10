@@ -30,7 +30,7 @@
             <h5 class="m-0 ml-2 text-dark">Patient-RS</h5></a>
            <a v-else @click="$router.back()" class=" navbar-brand py-3">
              <i class="fa fa-arrow-left text-muted" aria-hidden="true"></i>
-            <h5 class="m-0 ml-2 text-dark text-capitalize pl-2"> {{ $route.path.slice(1) }}</h5>
+            <h5 class="m-0 ml-2 text-dark text-capitalize pl-2"> {{ $route.path.slice(0,1) }}</h5>
          </a>
 
           <button class="navbar-toggler d-lg-none" @click="toggler()"  v-if="!sidebar" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"

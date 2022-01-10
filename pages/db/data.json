@@ -2,20 +2,20 @@
   "users": [
     {
       "id": 1,
-      "name": "Grace Greendwood",
+      "name": "Grace Greendwood Essien",
       "email":"test1@gmail.com",
       "password":"password",
        "profile": {
-        "dob":"4th may 2021",
+        "dob":"4th may 1992",
         "gender":"female",
         "marital_status":"married",
         "address":"uyo, idoro Road",
-        "phone":"09024195493",
+        "phone":"+123 090 2419 5493",
         "onTreatment":false,
         "date_started":"2nd Jan 2021",
         "sickness":[
           "Typhod","Fever","Maleria","Headache"
-        ] 
+        ]
 
         }
 
