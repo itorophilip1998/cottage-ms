@@ -17,7 +17,7 @@
 
           <!-- profile -->
           <div class="profile p-2 bg-light pt-4">
-            <h6><b>Hello</b> Itoro Emmanuel Philip! <nuxt-link to="/profile" class="fa fa-pencil btn btn-sm btn-outline-secondary float-right"> Edit</nuxt-link></h6>
+            <h6><b>Hello</b> Mr. Wisdom  <nuxt-link to="/profile" class="fa fa-pencil btn btn-sm btn-outline-secondary float-right"> Edit</nuxt-link></h6>
     <hr>
                   <!-- sickness -->
            <div class="sickness row m-0 my-3">
@@ -26,7 +26,7 @@
                 {{ sickness }}
                  </div>
           </div>
-           <div class="profileBox">
+           <div class="profileBox"> 
              <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Dob</small> {{ profile.dob }}</div>
              <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Gender</small> {{ profile.gender }}</div>
              <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Marital-Status</small> {{ profile.marital_status }}</div>
@@ -87,23 +87,22 @@ export default {
          } 
 
       ],
-      profile: {
-        dob:"4th may 2021",
-        gender:"male",
-        marital_status:"married",
-        address:"uyo, idoro Road",
-        phone:"09024195493",
-        sickness:["Maleria","Typhod","HI Blood Presure"],
+       
+       profile: {
+        dob:"4th may 1992",
+        gender:"female",
+        marital_status:"single",
+        address:"Oron",
+        phone:"...",
         onTreatment:false,
         date_started:"2nd Jan 2021",
         sickness:[
           "Typhod","Fever","Maleria","Headache"
         ]
 
+        
 
-
-        }
-
+    }
   }
   },
   methods:{

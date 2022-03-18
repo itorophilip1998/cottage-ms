@@ -8,8 +8,8 @@
         <img src="~assets/images/avater.png" class="logo" alt="">
     </div>
     <div class="profile-info text-center py-3">
-      <h5 class="text-dark mb-0 pb-0">Itoro Emmanuel Philip</h5>
-        <small class="text-white mt-0 pt-0">Itorophilip1998@gmail.com</small>
+      <h5 class="text-dark mb-0 pb-0">Wisdom Ita Bassey</h5>
+        <small class="text-white mt-0 pt-0">wisdom@gmail.com</small>
 
     </div>
     <div class="list border-top" >
@@ -30,7 +30,7 @@
             <h5 class="m-0 ml-2 text-dark">Patient-RS</h5></a>
            <a v-else @click="$router.back()" class=" navbar-brand py-3">
              <i class="fa fa-arrow-left text-muted" aria-hidden="true"></i>
-            <h5 class="m-0 ml-2 text-dark text-capitalize pl-2"> {{ $route.path.slice(0,1) }}</h5>
+            <h5 class="m-0 ml-2 text-dark text-capitalize pl-2"> {{ $route.path.slice(1) }}</h5>
          </a>
 
           <button class="navbar-toggler d-lg-none" @click="toggler()"  v-if="!sidebar" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"

@@ -2,15 +2,15 @@
   "users": [
     {
       "id": 1,
-      "name": "Grace Greendwood Essien",
-      "email":"test1@gmail.com",
+      "name": "Wisdom Ita Bassey",
+      "email":"wisdom@gmail.com",
       "password":"password",
        "profile": {
         "dob":"4th may 1992",
         "gender":"female",
-        "marital_status":"married",
-        "address":"uyo, idoro Road",
-        "phone":"+123 090 2419 5493",
+        "marital_status":"single",
+        "address":"Oron",
+        "phone":"...",
         "onTreatment":false,
         "date_started":"2nd Jan 2021",
         "sickness":[
