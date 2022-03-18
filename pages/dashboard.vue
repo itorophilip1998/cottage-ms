@@ -30,9 +30,7 @@
              <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Dob</small> {{ profile.dob }}</div>
              <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Gender</small> {{ profile.gender }}</div>
              <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Marital-Status</small> {{ profile.marital_status }}</div>
-             <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Address</small> {{ profile.address }}</div>
-             <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Phone</small> {{ profile.phone }}</div>
-
+             <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Address</small> {{ profile.address }}</div> 
              <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">On-Treatment</small> {{ (profile.onTreatment)? 'Yes':'NO' }}</div>
              <div class="shadow-sm mt-1 border bg-white p-3 rounded-x"><small class="pops">Date-Stated</small> {{ profile.date_started }}</div>
            </div>
