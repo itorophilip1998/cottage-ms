@@ -88,7 +88,7 @@ export default {
        
        profile: {
         dob:"4th may 1992",
-        gender:"female",
+        gender:"male",
         marital_status:"single",
         address:"Oron",
         phone:"...",
